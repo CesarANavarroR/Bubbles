@@ -1,0 +1,59 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../res/img/template.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+html,
+body {
+    overscroll-behavior: contain;
+    overflow: hidden;
+}
+
+
+/* .logo {
+    position: absolute;
+    display: inline-block;
+    width: 6.5rem;
+    top: 15rem;
+    z-index: 1;
+} */
+
+canvas {
+    position: absolute;
+    top: 1rem;
+    left: 0.5rem;
+    /* top: 3.5%;
+    left: 8.4%;
+    width: 82.5%;
+    height: 92.5%; */
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+
+#viewport {
+    width: 97%;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #d9d9d9;
+}
+
+#logo {
+    width: 97%;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #d9d9d9;
+}
